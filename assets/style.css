@@ -1,0 +1,151 @@
+body{
+background-color: rgb(26, 22, 22);
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header{
+background-color: black;
+color: aliceblue;
+padding: 1px;
+text-align: center;
+}
+
+nav ul{
+list-style:none ;
+padding: 0 1rem;
+}
+nav ul li{
+display: inline;
+margin:0 1rem;
+}
+
+nav ul li a {
+color: rgb(64, 223, 235);
+text-decoration: none;
+}
+
+
+main{
+padding: 32px;
+max-width: 900px;
+margin: 0 auto;
+background-color: white;
+box-shadow:  0 0 10px;
+}
+
+.Beleza{
+width: 190px; 
+height: 190px; 
+position: absolute;
+left: 550px;
+border-radius: 50px 50px 50px 50px;
+}
+
+.fundo{
+background-image:url(https://images.unsplash.com/photo-1643185450492-6ba77dea00f6?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+background-size: cover;
+}
+
+.card{
+position: relative;
+left: 300px;
+width: 300px;
+height: 200px;
+border-radius: 10px;
+display: inline-block;
+overflow: hidden;
+box-shadow:  0 4px 8px;
+transition:trasform 01s ease;
+margin-left: 5px;
+margin-top:  50px;
+margin-bottom:50px;
+background-color: aliceblue;
+}
+
+.card:hover{
+   transform: scale(1.05);
+}
+
+footer{
+background-color:var(--cor-footer);
+color: var(--cor-texto);
+text-align:center;
+padding: 19px;
+width: 100%;
+bottom: 0;
+}
+
+:root{
+--cor-fundo: #C380D6;
+--cor-footer:#235a53;
+--cor-texto:#ffff;
+}
+
+.card-text{
+position: absolute;
+width:100%;
+background-color:#C380D6;
+color: azure;
+text-align: center;
+padding: 10px;
+box-sizing: border-box;
+transform: translateY(200%);
+transition: trasform 0.3s ease;
+bottom: 0 ;
+}
+
+.card:hover .card-text {
+transform: translateY(0);
+
+}
+
+.form-container{
+background: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px;
+max-width: 500px;
+box-sizing:border-box;
+}
+
+.form-container h2 {
+margin-top: 0;
+margin-bottom:  15px;
+text-align: center;
+}
+
+
+.form-container label{
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.form-container input,
+.form-container textarea{
+width: 200px;
+padding: 10px;
+border:  1px solid #64c7a6;
+border-radius:4px;
+box-sizing: border-box;
+}
+
+.form-container button{
+background-color: #235a53;
+color: white;
+border:none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+width: 100px;
+display: block;
+margin-top: 10px;
+}
+
+
+.form-container button:hover {
+   background-color: yellowgreen;
+}
+
